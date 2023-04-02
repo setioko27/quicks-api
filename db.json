@@ -1,9 +1,236 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+	"task": [
+		{
+			"id": 1,
+			"title": "Close off Case #012920- RODRIGUES, Amiguel",
+			"due": "2023-04-06",
+			"description": "Homeworks needed to be checked are as follows : Client Profile Questionnaire, Passport Requirements and Images, Personal Documents.",
+			"label": [1,2],
+			"type": "my-task",
+			"completed": false
+		},
+		{
+			"id": 2,
+			"title": "Set up documentation report for several Cases : Case 145443, Case 192829 and Case 182203",
+			"due": "2023-04-08",
+			"description": "All Cases must include all payment transactions, all documents and forms filled. All conversations in comments and messages in channels and emails should be provided as well in.",
+			"label": [],
+			"type": "my-task",
+			"completed": false
+		},
+		{
+			"id": 3,
+			"title": "Set up appointment with Dr Blake",
+			"due": "2023-04-16",
+			"description": "",
+			"label": [],
+			"type": "my-task",
+			"completed": false
+		},
+		{
+			"id": 4,
+			"title": "Contact Mr Caleb - video conference?",
+			"due": "2023-04-30",
+			"description": "",
+			"label": [],
+			"type": "my-task",
+			"completed": true
+		},
+		{
+			"id": 5,
+			"title": "Assign 3 homework to Client A",
+			"due": "2023-06-01",
+			"description": "",
+			"label": [],
+			"type": "my-task",
+			"completed": true
+		}
+	],
+	"label": [
+		{
+			"id" : 1,
+			"title": "Important ASAP",
+			"color": "#E5F1FF"
+		},
+		{
+			"id" : 2,
+			"title": "Offline Meeting",
+			"color": "#FDCFA4"
+		},
+		{
+			"id" : 3,
+			"title": "Virtual Meeting",
+			"color": "#F9E9C3"
+		},
+		{
+			"id" : 4,
+			"title": "ASAP",
+			"color": "#AFEBDB"
+		},
+		{
+			"id" : 5,
+			"title": "Client Related",
+			"color": "#CBF1C2"
+		},
+		{
+			"id" : 6,
+			"title": "Self Task",
+			"color": "#CFCEF9"
+		},
+		{
+			"id" : 7,
+			"title": "Appointments",
+			"color": "#F9E0FD"
+		},
+		{
+			"id" : 8,
+			"title": "Court Related",
+			"color": "#9DD0ED"
+		}
+	],
+	"user": [
+		{
+			"id": 1,
+			"name": "This User",
+			"color": "purple"
+		},
+		{
+			"id": 2,
+			"name": "Mary Hilda",
+			"color": "yellow"
+		},
+		{
+			"id": 3,
+			"name": "FastVisa Support",
+			"color": "default"
+		},
+		{
+			"id": 4,
+			"name": "Obaidullah Amarkhil",
+			"color": "green"
+		},
+		{
+			"id": 5,
+			"name": "Cameron Phillips",
+			"color": "yellow"
+		},
+		{
+			"id": 6,
+			"name": "Ellen",
+			"color": "purple"
+		}
+	],
+	"chat-list": [
+		{
+			"id": 1,
+			"name": "109220-Naturalization",
+			"creaated": "2021-01-01 19:20:23",
+			"type": "group",
+			"participant": [5,1,4]
+		},
+		{
+			"id": 2,
+			"name": "Jeannette Moraima Guaman Chamba (Hutto I-589) [ Hutto Follow Up - Brief Service ]",
+			"creaated": "2021-06-02 10:45:23",
+			"type": "group",
+			"participant": [6,1,4]
+		},
+		{
+			"id": 3,
+			"name": "8405-Diana SALAZAR MUNGUIA",
+			"creaated": "2021-06-01 12:19:22",
+			"type": "group",
+			"participant": [5,1,4,2]
+		},
+		{
+			"id": 4,
+			"name": "FastVisa Support",
+			"creaated": "2021-06-01 12:19:25",
+			"type": "personal",
+			"participant": [3,1]
+		}
+	],
+	"room-message": [
+		{
+			"contact-id": 1,
+			"messages" : [
+				{
+					"id": 1,
+					"timestamp": "2021-06-08 07:34:00",
+					"text": "lorem ipsum dolor sit amet....",
+					"reply": null,
+					"from": 1
+				},
+				{
+					"id": 2,
+					"timestamp": "2021-06-08 19:32:00",
+					"text": "Just Fill me in for his updates yea?",
+					"reply": null,
+					"from": 2
+				},
+				{
+					"id": 3,
+					"timestamp": "2021-06-08 19:33:00",
+					"text": "No worries. It will be completed ASAP. I’ve asked him yesterday.",
+					"reply": null,
+					"from": 1
+				},
+				{
+					"id": 4,
+					"timestamp": "2021-06-09 07:34:00",
+					"text": "Hello Obaidullah, I will be your case advisor for case #029290. I have assigned some homework for you to fill. Please keep up with the due dates. Should you have any questions, you can message me anytime. Thanks.",
+					"reply": null,
+					"from": 2
+				},
+				{
+					"id": 5,
+					"timestamp": "2021-06-09 07:35:00",
+					"text": "Please contact Mary for questions regarding the case bcs she will be managing your forms from now on! Thanks Mary.",
+					"reply": null,
+					"from": 1
+				},
+				{
+					"id": 6,
+					"timestamp": "2021-06-09 07:36:00",
+					"text": "Sure thing ,Claren.",
+					"reply": null,
+					"from": 2
+				},
+				{
+					"id": 7,
+					"timestamp": "2021-06-09 07:38:00",
+					"text": "Morning. I’ll try to do them. Thanks",
+					"reply": null,
+					"from": 4
+				}
+			]
+		},
+		{
+			"contact-id": 2,
+			"messages" : []
+		},
+		{
+			"contact-id": 3,
+			"messages" : []
+		},
+		{
+			"contact-id": 4,
+			"messages" : [
+				{
+					"id": 8,
+					"timestamp": "2021-06-09 19:32:21",
+					"text": "Hey there. Welcome to your inbox! Contact us for more information and help about anything! We’ll send you a response as soon as possible.",
+					"reply": null,
+					"from": 3
+				},
+				{
+					"id": 9,
+					"timestamp": "2021-06-09 19:35:21",
+					"text": "Hi, I need help with something can you help me ?",
+					"reply": null,
+					"from": 1
+				}
+			]
+		}
+	]
 }
