@@ -152,7 +152,7 @@
 	],
 	"room-message": [
 		{
-			"contact-id": 1,
+			"id": 1,
 			"messages" : [
 				{
 					"id": 1,
@@ -206,15 +206,15 @@
 			]
 		},
 		{
-			"contact-id": 2,
+			"id": 2,
 			"messages" : []
 		},
 		{
-			"contact-id": 3,
+			"id": 3,
 			"messages" : []
 		},
 		{
-			"contact-id": 4,
+			"id": 4,
 			"messages" : [
 				{
 					"id": 8,
