@@ -91,7 +91,7 @@
 	"user": [
 		{
 			"id": 1,
-			"name": "This User",
+			"name": "Me",
 			"color": "purple"
 		},
 		{
@@ -124,35 +124,49 @@
 		{
 			"id": 1,
 			"name": "109220-Naturalization",
-			"creaated": "2021-01-01 19:20:23",
+			"created": "2021-01-01 19:20:23",
 			"type": "group",
-			"participant": [5,1,4]
+			"last_view":  "2021-06-09 05:19:00",
+			"last_message": {
+				"from": "Obaidullah Amarkhil",
+				"text": "Morning. I’ll try to do them. Thanks",
+				"timestamp": "2021-06-09 07:38:00"
+			}
+			
 		},
 		{
 			"id": 2,
 			"name": "Jeannette Moraima Guaman Chamba (Hutto I-589) [ Hutto Follow Up - Brief Service ]",
-			"creaated": "2021-06-02 10:45:23",
+			"created": "2021-06-02 10:45:23",
 			"type": "group",
-			"participant": [6,1,4]
+			"last_view": "2021-06-02 10:45:23",
+			"last_message": null
 		},
 		{
 			"id": 3,
 			"name": "8405-Diana SALAZAR MUNGUIA",
-			"creaated": "2021-06-01 12:19:22",
+			"created": "2021-06-01 12:19:22",
 			"type": "group",
-			"participant": [5,1,4,2]
+			"last_view": "2021-06-01 12:19:22",
+			"last_message": null,
 		},
 		{
 			"id": 4,
 			"name": "FastVisa Support",
-			"creaated": "2021-06-01 12:19:25",
+			"created": "2021-06-01 12:19:25",
 			"type": "personal",
-			"participant": [3,1]
+			"last_view": "2021-06-09 19:35:21",
+			"last_message": {
+				"from": "Me",
+				"timestamp": "2021-06-09 19:35:21",
+				"text": "Hi, I need help with something can you help me ?",
+			}
 		}
 	],
-	"room-message": [
+	"room": [
 		{
 			"id": 1,
+			"type": "group",
 			"messages" : [
 				{
 					"id": 1,
@@ -203,18 +217,73 @@
 					"reply": null,
 					"from": 4
 				}
+			],
+			"participant": [
+				{
+					"id": 5,
+					"name": "Cameron Phillips",
+					"color": "yellow"
+				},
+				{
+					"id": 1,
+					"name": "This User",
+					"color": "purple"
+				},
+				{
+					"id": 4,
+					"name": "Obaidullah Amarkhil",
+					"color": "green"
+				},
 			]
 		},
 		{
 			"id": 2,
-			"messages" : []
+			"type": "group",
+			"messages" : [],
+			"participant": [
+				{
+					"id": 6,
+					"name": "Ellen",
+					"color": "purple"
+				},
+				{
+					"id": 1,
+					"name": "This User",
+					"color": "purple"
+				},
+				{
+					"id": 4,
+					"name": "Obaidullah Amarkhil",
+					"color": "green"
+				},
+			]
 		},
 		{
 			"id": 3,
-			"messages" : []
+			"type": "group",
+			"messages" : [],
+			"participant": [
+				{
+					"id": 1,
+					"name": "This User",
+					"color": "purple"
+				},
+				{
+					"id": 2,
+					"name": "Mary Hilda",
+					"color": "yellow"
+				},
+				{
+					"id": 4,
+					"name": "Obaidullah Amarkhil",
+					"color": "green"
+				}
+
+			]
 		},
 		{
 			"id": 4,
+			"type": "personal",
 			"messages" : [
 				{
 					"id": 8,
@@ -229,6 +298,19 @@
 					"text": "Hi, I need help with something can you help me ?",
 					"reply": null,
 					"from": 1
+				}
+			],
+			"participant": [
+				{
+					"id": 1,
+					"name": "This User",
+					"color": "purple"
+				},
+				{
+					
+					"id": 3,
+					"name": "FastVisa Support",
+					"color": "default"
 				}
 			]
 		}
