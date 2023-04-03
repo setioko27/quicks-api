@@ -148,7 +148,7 @@
 			"created": "2021-06-01 12:19:22",
 			"type": "group",
 			"last_view": "2021-06-01 12:19:22",
-			"last_message": null,
+			"last_message": null
 		},
 		{
 			"id": 4,
@@ -159,7 +159,7 @@
 			"last_message": {
 				"from": "Me",
 				"timestamp": "2021-06-09 19:35:21",
-				"text": "Hi, I need help with something can you help me ?",
+				"text": "Hi, I need help with something can you help me ?"
 			}
 		}
 	],
@@ -233,7 +233,7 @@
 					"id": 4,
 					"name": "Obaidullah Amarkhil",
 					"color": "green"
-				},
+				}
 			]
 		},
 		{
@@ -255,7 +255,7 @@
 					"id": 4,
 					"name": "Obaidullah Amarkhil",
 					"color": "green"
-				},
+				}
 			]
 		},
 		{
